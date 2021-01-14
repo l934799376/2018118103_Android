@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/colorTime">
+
+    <TextView
+        android:id="@+id/textViewAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_marginStartPercent="14%"
+        app:layout_marginTopPercent="7%"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:text="闹钟" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewAlarm"
+        android:layout_toEndOf="@id/textViewAlarm"
+        app:layout_marginLeftPercent="10%"
+        android:text="时钟"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStopWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewTime"
+        android:layout_toEndOf="@id/textViewTime"
+        app:layout_marginLeftPercent="10%"
+        android:text="秒表"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewStopWatch"
+        android:layout_toEndOf="@id/textViewStopWatch"
+        app:layout_marginLeftPercent="10%"
+        android:text="计时器"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewAlarm"
+        android:src="@drawable/timebackground"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/Vancouver"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="48%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="13%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/Washington"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="51%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="26%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/BuenosAires"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="73%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="30%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/London"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="46%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="45%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Cario"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="54%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="53%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Moscow"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="45%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="56%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Mumbai"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="57%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="66%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Beijing"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="49%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="77%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Tokyo"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="51%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="84%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Melbourne"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        app:layout_marginTopPercent="72%"
+        android:layout_alignParentStart="true"
+        app:layout_marginLeftPercent="90%"
+        android:src="@drawable/point"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"/>
+
+</android.support.percent.PercentRelativeLayout>
